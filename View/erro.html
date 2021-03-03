@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Oops! | me Salva!</title>
+    <link rel="icon" href="IMG/icon.png">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.6/dist/css/uikit.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.6/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.6/dist/js/uikit-icons.min.js"></script>
+</head>
+
+<body>
+    <form id="pagina">
+        <center>
+            <br>
+            <h3>Oops! Parece que algo deu errado. Por favor, tente novamente.</h3>
+            <img src="IMG/Vohiyo.png" height="150px" width="150px">
+            <br>
+            <br>
+            <a href="../index.php" class="uk-button uk-button-secondary uk-margin-small-right">Voltar</a>
+            <br>
+            <br>
+            <button class="uk-button uk-button-secondary uk-margin-small-right" type="button"
+                uk-toggle="target: #offcanvas-usage">Por quê estou vendo isso?</button>
+        </center>
+        <div id="offcanvas-usage" uk-offcanvas>
+            <div class="uk-offcanvas-bar">
+
+                <button class="uk-offcanvas-close" type="button" uk-close></button>
+
+                <h3>O que deu errado?</h3>
+
+                <p>Houve uma falha na comunicação com o banco de dados, ou uma falha na conexão da internet. Caso deseje
+                    nos enviar um feedback, clique no botão abaixo:</p>
+                <a href="feedback.php" class="uk-button uk-button-primary" type="submit">Feedback</a>
+            </div>
+        </div>
+        <br><br><br><br><br><br><br><br>
+        <center>
+            v1.0.7 Iris Software Studio, Inc.
+        </center>
+    </form>
+</body>
+
+</html>
